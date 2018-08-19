@@ -1,0 +1,28 @@
+git config --global user.name "Abhijeet Panikar"
+git config --global user.email "email address"
+
+git config  --list
+
+
+git init
+
+
+ls -la => to show hidden files
+
+git add .
+git commit -m "comment"
+git log
+git log --author="author name"
+git diff 
+git remote add nickname link
+git remote
+
+git push -u threeTier
+
+
+echo "# DataStructures" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/apaun/DataStructures.git
+git push -u origin master
